@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    height: 100vh;
+    background-image: url("../Arquitectura/Fondo\ pag.jpeg");
+}
+
+.hero_header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-inline: 1.5rem;
+
+}
+
+.hero_header .logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.header_right p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.header_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.header_right .menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 2rem;
+    letter-spacing: 2px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero_main {
+    display: flex;
+}
+.hero_main > div {
+    flex: 1;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+}
+.hero_text h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    border: 2px dashed;
+    width: max-content;
+    
+}
+
+.hero_text h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7rem;
+    line-height: 0.8;
+}
+
+.hero_text h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+.hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 8rem;
+}
+
+.hero_img img {
+    max-width: 500px;
+}
+
+
+/****OBRAS****/
+
+.titles h2 {
+    font-size: 4rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.titles p {
+    font-size: 1.5rem;
+    padding-top: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cards {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+     "caja2 caja3 caja4";
+    gap: 1rem;
+    padding-right: 2.5rem;
+    
+    
+    
+}
+
+
+.casa1 {
+    grid-area: caja2;
+    background-image: url("../Arquitectura/img.1.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.casa2 {
+    grid-area: caja3;
+    background-image: url("../Arquitectura/img.2.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 300;
+}
+.casa3 {
+    grid-area: caja4;
+    background-image: url("../Arquitectura/img.3.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.casa {
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+
+/****ARQUITECTOS****/
+.titles h2 {
+    font-size: 4rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.titles p {
+    font-size: 1.5rem;
+    padding-top: 0;
+    padding: 1rem;
+    text-align: center;
+}
+.fotos {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+     "caja2 caja3 caja4";
+    gap: 1rem;
+    padding-right: 2.5rem;
+    
+    
+    
+}
+
+
+.caja2 {
+    grid-area: caja2;
+    background-image: url("../Arquitectura/img.7.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.caja3 {
+    grid-area: caja3;
+    background-image: url("../Arquitectura/img.5.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 300;
+}
+.caja4 {
+    grid-area: caja4;
+    background-image: url("../Arquitectura/img.6.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.caja {
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+
+
+/****CONTACTO****/
+
+
+.contact {
+    padding: 6rem;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contact_heading {
+    padding: 8rem;
+    text-align: center;
+    gap: 2rem;
+}
+
+.contact_heading h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.contact_heading h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+.contact_form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "name"
+    "date"
+    "email"
+    "number"
+    "button";
+    width: 36rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact_form input {
+    padding: .75rem 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+}
+
+.contact_form .name {
+    grid-area: name;
+}
+
+.contact_form .date {
+    grid-area: date;
+}
+
+.contact_form .email {
+    grid-area: email;
+}
+
+.contact_form .number {
+    grid-area: number;
+}
+
+.contact_form .button {
+    grid-area: button;
+    border: 0;
+    background-color: 
+    rgb(138, 128, 128);
+}
+
+@media screen and (max-width: 480px) {
+    .hero_header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .header_right {
+        align-items: flex-start;
+    }
+    .hero_img  {
+        padding-top: 0%;
+    }
+    .hero_main {
+        flex-direction: column;
+        padding-inline: 2rem;
+        padding-top: 3rem;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 2rem;
+        padding-top: 3rem;
+        
+    }
+    .grid_item {
+        flex: 1;
+    }
+
+}

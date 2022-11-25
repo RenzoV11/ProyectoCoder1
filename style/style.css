@@ -296,32 +296,9 @@
     background-color: 
     rgb(138, 128, 128);
 }
-
-@media screen and (max-width: 480px) {
-    .hero_header {
-        flex-direction: column;
-        gap: 2rem;
-    }
-    .header_right {
-        align-items: flex-start;
-    }
-    .hero_img  {
-        padding-top: 0%;
-    }
-    .hero_main {
-        flex-direction: column;
-        padding-inline: 2rem;
-        padding-top: 3rem;
-    }
-    .grid {
-        display: flex;
-        flex-direction: column;
-        padding-inline: 2rem;
-        padding-top: 3rem;
-        
-    }
-    .grid_item {
-        flex: 1;
-    }
-
+.map h1 {
+    padding: 2rem;
+    padding-left: 17rem;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

@@ -363,4 +363,8 @@
         flex-direction: column;
     }
 
+    .col {
+        flex-direction: column;
+    }
+
 }

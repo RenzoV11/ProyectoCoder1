@@ -354,4 +354,13 @@
         align-items: center;
     }
 
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
 }
